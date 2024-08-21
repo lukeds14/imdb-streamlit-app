@@ -46,6 +46,7 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
     ## A. Crear un archivo Dockerfile
           Primero, crea un archivo llamado Dockerfile en el mismo directorio donde tienes tu aplicación app.py. Este archivo describirá cómo se 
           debe construir la imagen Docker.
+
                               # Use the official Python image as a base image
                               FROM python:3.11-slim
                               
@@ -78,16 +79,17 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
 
                              docker build -t imdb-streamlit-app .
 
-     ## D. Ejecutar el contenedor Docker
+   ## D. Ejecutar el contenedor Docker
            Una vez que la imagen Docker se ha construido, puedes ejecutar un contenedor basado en esa imagen usando el siguiente comando:
 
                              docker run -p 8501:8501 imdb-streamlit-app
 
             Este comando hará que tu aplicación esté disponible en http://localhost:8501 en tu navegador.
 
-     ## E. Verificar la Aplicación
+   ## E. Verificar la Aplicación
            Abre tu navegador web y visita http://localhost:8501 para ver tu aplicación en funcionamiento.
 
-    
-   git clone https://github.com/lukeds14/imdb-streamlit-app.git
-   cd imdb-streamlit-app
+
+Otros usuarios ahora pueden ejecutar tu aplicación directamente desde Docker Hub usando:
+   docker run -p 8501:8501 lukeds14/imdb-streamlit-app
+  
