@@ -22,14 +22,21 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
 - Scikit-learn
 - Matplotlib
 
-## Instalación
+## Descripción
 
-1. **Clonar el repositorio:**
+1. 
   Al ejecurar el contenedor localmente se debe abrir el navegador y digitar la siguiente direccion web 'http://localhost:8501/' donde
   se abrira la descripcion del data set.
   ![Pantalla principal de la aplicación](imagenPrincipal.png)
+2. Para ejecutar la aplicacion se debe dar click en 'Entrenar Modelo' en el botón al final de la descripcion
+  ![Pantalla principal de la aplicación](boton.png)
+3. La aplicacion ira mostrando la información de cada epoca de entrenamiento y las metricas resultantes.
+  ![Pantalla principal de la aplicación](epoca.png)
+4. Al final del entrenamiento el usuario visualizará las graficará la función de costo, la matriz de confusión y la curva Roc resultante 
+   del fin del entrenamiento.
+   ![Pantalla principal de la aplicación](grafica.png) 
 
-
+5. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/lukeds14/imdb-streamlit-app.git
    cd imdb-streamlit-app
