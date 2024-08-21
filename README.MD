@@ -1,6 +1,8 @@
 # IMDB Streamlit App
 
-# Presentado por: Luis Eduardo Solarte R. Alejandro Valencia. Diego Alejandro Rodriguez.
+# Presentado por: Luis Eduardo Solarte R. 
+                  Alejandro Valencia. 
+                  Diego Alejandro Rodriguez.
 
 ## Descripción
 
