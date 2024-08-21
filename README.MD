@@ -39,7 +39,7 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
 ## Matriz de Confusión
 ![Pantalla principal de la aplicación](grafica2.png) 
 
-## Matriz de Confusión
+## Curva ROC
 ![Pantalla principal de la aplicación](grafica3.png) 
 
 5. **Clonar el repositorio:**
