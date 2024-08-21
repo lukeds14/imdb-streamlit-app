@@ -1,10 +1,8 @@
 # IMDB Streamlit App
 
-# Presentado por: 
-                  Luis Eduardo Solarte R. 
-                  Alejandro Valencia. 
-                  Diego Alejandro Rodriguez.
-
+ Presentado por: Alejandro Valencia. 
+                 Diego Alejandro Rodriguez.
+                 Luis Eduardo Solarte R. 
 ## Descripción
 
 Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit que permite cargar, entrenar y evaluar un modelo de aprendizaje profundo utilizando el dataset de reseñas de IMDB. La aplicación incluye visualizaciones de métricas de entrenamiento, matriz de confusión, y la curva ROC, todo desde una interfaz interactiva y fácil de usar.
