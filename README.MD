@@ -34,7 +34,15 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
   ![Pantalla principal de la aplicación](epoca.png)
 4. Al final del entrenamiento el usuario visualizará las graficará la función de costo, la matriz de confusión y la curva Roc resultante 
    del fin del entrenamiento.
-   ![Pantalla principal de la aplicación](grafica.png) 
+
+## Función de Costo
+![Pantalla principal de la aplicación](grafica1.png) 
+
+## Matriz de Confusión
+![Pantalla principal de la aplicación](grafica2.png) 
+
+## Matriz de Confusión
+![Pantalla principal de la aplicación](grafica3.png) 
 
 5. **Clonar el repositorio:**
    ```bash
