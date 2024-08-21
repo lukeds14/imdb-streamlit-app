@@ -45,27 +45,51 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
 ![Pantalla principal de la aplicación](grafica3.png) 
 
 5. **Clonar el repositorio:**
-   A. 1. Crear un archivo Dockerfile
+    ## A. Crear un archivo Dockerfile
           Primero, crea un archivo llamado Dockerfile en el mismo directorio donde tienes tu aplicación app.py. Este archivo describirá cómo se 
           debe construir la imagen Docker.
-                          # Use the official Python image as a base image
-                          FROM python:3.11-slim
-                          
-                          # Set the working directory in the container
-                          WORKDIR /app
-                          
-                          # Copy the current directory contents into the container at /app
-                          COPY . /app
-                          
-                          # Install any needed packages specified in requirements.txt
-                          RUN pip install --no-cache-dir -r requirements.txt
-                          
-                          # Expose the port that Streamlit uses
-                          EXPOSE 8501
-                          
-                          # Run streamlit when the container launches
-                          CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+                              # Use the official Python image as a base image
+                              FROM python:3.11-slim
+                              
+                              # Set the working directory in the container
+                              WORKDIR /app
+                              
+                              # Copy the current directory contents into the container at /app
+                              COPY . /app
+                              
+                              # Install any needed packages specified in requirements.txt
+                              RUN pip install --no-cache-dir -r requirements.txt
+                              
+                              # Expose the port that Streamlit uses
+                              EXPOSE 8501
+                              
+                              # Run streamlit when the container launches
+                              CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
+  ## B. Crear un archivo requirements.txt
+        Crea un archivo llamado requirements.txt en el mismo directorio para especificar las dependencias de Python
+                            streamlit==1.25.0
+                            tensorflow==2.15.0
+                            matplotlib==3.8.0
+                            scikit-learn==1.3.0
+                            numpy==1.26.3
+                            tensorflow-datasets==4.9.6
 
+   ## C. Construir la imagen Docker
+         Navega al directorio donde se encuentra el Dockerfile y ejecuta el siguiente comando para construir la imagen Docker:
+
+                             docker build -t imdb-streamlit-app .
+
+     ## D. Ejecutar el contenedor Docker
+           Una vez que la imagen Docker se ha construido, puedes ejecutar un contenedor basado en esa imagen usando el siguiente comando:
+
+                             docker run -p 8501:8501 imdb-streamlit-app
+
+            Este comando hará que tu aplicación esté disponible en http://localhost:8501 en tu navegador.
+
+     ## E. Verificar la Aplicación
+           Abre tu navegador web y visita http://localhost:8501 para ver tu aplicación en funcionamiento.
+
+    
    git clone https://github.com/lukeds14/imdb-streamlit-app.git
    cd imdb-streamlit-app
