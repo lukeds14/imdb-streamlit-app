@@ -137,7 +137,7 @@ Para la ejecucion de la aplicación con la interfaz de Tkinter se debe crear el 
 
 ## Curva ROC
 
-  ![Pantalla principal de la aplicación](tkinter3.png) 
+  ![Pantalla principal de la aplicación](tkinter4.png) 
 
 
 
