@@ -123,4 +123,19 @@ Para la ejecucion de la aplicación con la interfaz de Tkinter se debe crear el 
 
    ![Pantalla principal de la aplicación](tkinter.png) 
 
+## Para ejecutar la aplicación hacemos click en el Boton 'Entrenar Modelo' y al terminar presenta las metricas de 
+   entrenamiento y los resultados de cada epoca.
+
+     ![Pantalla principal de la aplicación](tkinter1.png) 
+
+## Una vez terminado se muestran las graficas de funsión de costo, matriz de confusión y la curva ROC.
+
+      ![Pantalla principal de la aplicación](tkinter2.png) 
+
+      ![Pantalla principal de la aplicación](tkinter3.png) 
+
+      ![Pantalla principal de la aplicación](tkinter4.png) 
+
+
+
   
