@@ -5,6 +5,9 @@
 
 Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit que permite cargar, entrenar y evaluar un modelo de aprendizaje profundo utilizando el dataset de reseñas de IMDB. La aplicación incluye visualizaciones de métricas de entrenamiento, matriz de confusión, y la curva ROC, todo desde una interfaz interactiva y fácil de usar.
 
+Para la misma aplicación se desarrolla una interfaz grafica con tkinter, en el apartado ' Descripcion Aplicacion con Tkinter' se explica
+como ejecutar la aplicacion localmente, la aplicacion funciona igual que en la descripción pero en la interfaz descrita.
+
 ## Características
 
 - **Carga y preprocesamiento de datos:** El dataset de reseñas de IMDB se carga y se preprocesa automáticamente.
@@ -92,4 +95,32 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
 
 Otros usuarios ahora pueden ejecutar tu aplicación directamente desde Docker Hub usando:
    docker run -p 8501:8501 lukeds14/imdb-streamlit-app
+
+##  Descripcion Aplicacion con Tkinter
+
+Para la ejecucion de la aplicación con la interfaz de Tkinter se debe crear el directorio 'streamModel' y copiar los siguientes archivos:
+
+             - dataset.py
+             - model.py
+             - interfaz.py
+## Se debe instalar las librerias necesarias descritas en el archivo requirements.txt
+
+             - streamlit==1.25.0
+             - tensorflow==2.15.0
+             - matplotlib==3.8.0
+             - scikit-learn==1.3.0
+             - numpy==1.26.3
+             - tensorflow-datasets==4.9.6
+
+## Para ejecutar el proyecto se debe ubicar en el directorio streamModel con el siguiente comando:
+
+             - cd streamModel
+   Una vez ubicados en el directorio desde el bash (cmd) ejecutamos:
+
+             - python interfaz.py
+
+   Si no muestra mensaje de error se abrira una ventana de la interfaz de Tkinter de la siguiente manera:
+
+   ![Pantalla principal de la aplicación](tkinter.png) 
+
   
