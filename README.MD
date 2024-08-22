@@ -131,7 +131,11 @@ Para la ejecucion de la aplicación con la interfaz de Tkinter se debe crear el 
 
   ![Pantalla principal de la aplicación](tkinter1.png) 
 
+## Matriz de confusión
+
   ![Pantalla principal de la aplicación](tkinter2.png) 
+
+## Curva ROC
 
   ![Pantalla principal de la aplicación](tkinter3.png) 
 
