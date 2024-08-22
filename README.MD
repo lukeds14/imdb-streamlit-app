@@ -21,7 +21,7 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
 - Scikit-learn
 - Matplotlib
 
-## Descripción
+## Descripción Aplicación con Streamlit montada un contenedor Docker.
 
 1. Al ejecurar el contenedor localmente se debe abrir el navegador y digitar la siguiente direccion web 'http://localhost:8501/' donde
   se abrira la descripcion del data set.
