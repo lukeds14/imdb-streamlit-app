@@ -96,7 +96,7 @@ como ejecutar la aplicacion localmente, la aplicacion funciona igual que en la d
 Otros usuarios ahora pueden ejecutar tu aplicación directamente desde Docker Hub usando:
    docker run -p 8501:8501 lukeds14/imdb-streamlit-app
 
-##  Descripcion Aplicacion con Tkinter
+#  Descripcion Aplicacion IMDB con Tkinter
 
 Para la ejecucion de la aplicación con la interfaz de Tkinter se debe crear el directorio 'streamModel' y copiar los siguientes archivos:
 
