@@ -85,8 +85,8 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
                              docker run -p 8501:8501 imdb-streamlit-app
 
             Este comando hará que tu aplicación esté disponible en http://localhost:8501 en tu navegador.
-            ![Pantalla principal de la aplicación](docker.png) 
-
+            
+   ![Pantalla principal de la aplicación](docker.png) 
    ## E. Verificar la Aplicación
            Abre tu navegador web y visita http://localhost:8501 para ver tu aplicación en funcionamiento.
 
