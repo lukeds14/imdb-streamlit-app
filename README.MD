@@ -9,6 +9,8 @@ Este proyecto es una aplicación web desarrollada en Python utilizando Streamlit
 Para la misma aplicación se desarrolla una interfaz grafica con tkinter, en el apartado ' Descripcion Aplicacion con Tkinter' se explica
 como ejecutar la aplicacion localmente, esta funciona igual que en la descripción pero en la interfaz descrita.
 
+El proyecto abarca desde la recopilación y pre procesamiento de datos hasta la creación, entrenamiento, evaluación y optimización de un modelo de redes neuronales recurrentes con LSTM para la clasificación de sentimientos en comentarios de películas
+
 ## Características
 
 - **Carga y preprocesamiento de datos:** El dataset de reseñas de IMDB se carga y se preprocesa automáticamente.
