@@ -97,6 +97,24 @@ como ejecutar la aplicacion localmente, esta funciona igual que en la descripci�
 Otros usuarios ahora pueden ejecutar tu aplicación directamente desde Docker Hub usando:
    docker run -p 8501:8501 lukeds14/imdb-streamlit-app
 
+## Estructura del proyecto
+
+## Archivo app.py
+
+Este código crea una aplicación web que permite visualizar el proceso de entrenamiento de un modelo de aprendizaje automático sobre reseñas de IMDB, mostrando métricas y gráficas relevantes para evaluar su rendimiento.
+
+## Archivo model.py
+
+Esta clase proporciona una implementación básica para crear y entrenar un modelo de red neuronal utilizando LSTM para la clasificación binaria de texto. Define la arquitectura del modelo, lo compila y proporciona una función para entrenarlo con datos de entrenamiento y validación.
+
+## Archivo dataset.py
+
+La funcion load_and_preprocess_data() carga el conjunto de datos de reseñas de IMDB, preprocesa el texto para eliminar caracteres especiales, tokeniza las reseñas convirtiéndolas en secuencias de enteros y organiza los datos en lotes, preparándolos para su uso en un modelo de aprendizaje automático. Esta función es fundamental para garantizar que los datos estén en el formato adecuado antes de ser alimentados al modelo
+
+## Archivo interfaz.py
+
+Este código hace lo mismo que el archivo app.py pero con la diferencia que lo hace en una interfaz grafica con Tkinter,  permite visualizar el proceso de entrenamiento de un modelo de aprendizaje automático sobre reseñas de IMDB, mostrando métricas y gráficas relevantes para evaluar su rendimiento.
+
 #  Descripcion Aplicacion IMDB con Tkinter
 
 Para la ejecucion de la aplicación con la interfaz de Tkinter se debe crear el directorio 'streamModel' y copiar los siguientes archivos:
